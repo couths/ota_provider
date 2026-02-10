@@ -1,0 +1,31 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Galaxy Note 4 (trelte)
+Device maintainer: Couths
+
+===== 11/01/2025 =====
+
+- Initial release
+
+===== 11/10/2025 =====
+
+- Use R22P0 gpu driver again
+- Use vendor from previous LineageOS 18.1
+
+===== 02/07/2026 =====
+
+- Synced with crDroid11 source
+- December SPL
+- Reverted back to Salih's lineage vendor (Reverts R22P0 to R15P0)
+- Add Back cpusets from Samsung A800S
+- Assign drmrpc to /dev/video26
+- Binderize Memory Tracker HAL
+- Switch to new AIDL Power HAL
+- Increase Swappiness to 100
+- Make mcDriverDaemon start with three trustlet (third one wasn't included correctly)
+
+===== 02/09/2026 =====
+- OTA Support
+
+===== 02/10/2026 =====
+- Fixed USB issues
