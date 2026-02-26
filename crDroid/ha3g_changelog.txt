@@ -27,3 +27,13 @@ Device maintainer: Couths
 - Kernel side LMK and ZRAM changes
 - BFQ IO Scheduler support
 
+===== 02/26/2026 =====
+- Enable LiveDisplay support
+- ITouchscreenGesture support for S-Pen
+- Set Doze brightness to 1 (0-255)
+- Set default overlays to stock
+- Add vibe (vibration) pattern overlays
+- Increase ZRAM size to 75% of RAM
+- Switch to HIDL Power HAL (Brings back performance profiles)
+- Fixed an issue where navigation-related settings would crash the crDroid Settings app.
+- Fixed the changelog button in the updater app.

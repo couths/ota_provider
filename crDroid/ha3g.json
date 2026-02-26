@@ -4,11 +4,11 @@
 			"maintainer": "Couths",
 			"oem": "Samsung",
 			"device": "Galaxy Note 3",
-			"filename": "crDroidAndroid-11.0-20260209-ha3g-v7.60.zip",
-			"download": "https://github.com/couths/ota_provider/releases/download/crDroidAndroid-11.0-20260209-ha3g-v7.60/crDroidAndroid-11.0-20260209-ha3g-v7.60.zip",
-			"timestamp": 1770637306,
-			"md5": "986b6b87606f0974e813b74c3b1a2fcd",
-			"size": 603820260,
+			"filename": "crDroidAndroid-11.0-20260226-ha3g-v7.60.zip",
+			"download": "https://github.com/couths/ota_provider/releases/download/crDroidAndroid-11.0-20260226-ha3g-v7.60/crDroidAndroid-11.0-20260226-ha3g-v7.60.zip",
+			"timestamp": 1772129608,
+			"md5": "7d5b5575395b5408a874221ea94b7c91",
+			"size": 604610819,
 			"version": "7.60",
 			"buildtype": "Monthly",
 			"forum": "https://xdaforums.com/t/rom-unofficial-11-crdroid-7-60-for-samsung-galaxy-note-3-ha3g.4764690/",
@@ -18,7 +18,7 @@
 			"bootloader": "",
 			"recovery": "",
 			"paypal": "",
-			"telegram": ""
+			"telegram": "https://t.me/exynosnote3"
 		}
 	]
 }
