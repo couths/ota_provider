@@ -4,18 +4,15 @@ Device: Galaxy Note 3 (ha3g)
 Device maintainer: Couths
 
 ===== 10/21/2025 =====
-
 - Initial release
 
 ===== 10/23/2025 - 10/30/2025 =====
-
 - Fixed NFC crashing in the background
 - Fixed camera crashing
 - Synced libhwcmodule with Exynos 5422
 - Use HW Renderscript module instead of CPU Module (This module uses GPU for 2D effects, should make 2D graphics smoother)
 
 ===== 01/09/2026 =====
-
 - Synced with crDroid11 source
 - December SPL
 - Maybe fixed S-Pen?(needs testing)
@@ -37,3 +34,9 @@ Device maintainer: Couths
 - Switch to HIDL Power HAL (Brings back performance profiles)
 - Fixed an issue where navigation-related settings would crash the crDroid Settings app.
 - Fixed the changelog button in the updater app.
+
+===== 03/03/2026 =====
+- Enforcing SELinux
+- Included useful system apps like: AuroraStore, Droid-ify, Fossify File Manager
+- Enabled Blur support
+- Add back Exynos 5420 power HAL
