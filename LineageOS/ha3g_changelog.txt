@@ -1,0 +1,5 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Galaxy Note 3 (ha3g)
+Device maintainer: Couths
+
