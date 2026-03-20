@@ -15,7 +15,6 @@ Device maintainer: Couths
 ===== 01/09/2026 =====
 - Synced with crDroid11 source
 - December SPL
-- Maybe fixed S-Pen?(needs testing)
 - Added forgotten cpu value(seems to disable 100 and 200Mhz)
 
 ===== 02/09/2026 =====
@@ -40,3 +39,8 @@ Device maintainer: Couths
 - Included useful system apps like: AuroraStore, Droid-ify, Fossify File Manager
 - Enabled Blur support
 - Add back Exynos 5420 power HAL
+
+===== 03/19/2026 =====
+- Fix some SELinux denials
+- Update prebuilt Droid-ify to 0.7.1
+- Included Android System SafetyCore/KeyVerifier blocker apps.(Google apps that use system resources)
