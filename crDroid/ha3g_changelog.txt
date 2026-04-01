@@ -41,6 +41,12 @@ Device maintainer: Couths
 - Add back Exynos 5420 power HAL
 
 ===== 03/19/2026 =====
-- Fix some SELinux denials
-- Update prebuilt Droid-ify to 0.7.1
+- Fixed some SELinux denials
+- Updated prebuilt Droid-ify to 0.7.1
 - Included Android System SafetyCore/KeyVerifier blocker apps.(Google apps that use system resources)
+
+===== 03/19/2026 =====
+- Synced with crDroid11 source
+- March 2026 SPL
+- Updated prebuilt AuroraStore to 4.8.1
+- Set statusBarBurnInProtection to true
