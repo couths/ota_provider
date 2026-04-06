@@ -4,12 +4,12 @@
 			"maintainer": "Couths",
 			"oem": "Samsung",
 			"device": "Galaxy Note 4",
-			"filename": "crDroidAndroid-11.0-20260210-trelte-v7.60",
-			"download": "https://github.com/couths/ota_provider/releases/download/crDroidAndroid-11.0-20260210-trelte-v7.60/crDroidAndroid-11.0-20260210-trelte-v7.60.zip",
-			"timestamp": 1770719238,
-			"md5": "e7e3422e17e16feee827c005560efd38",
-			"size": 626935149,
-			"version": "7.60-20260210",
+			"filename": "crDroidAndroid-11.0-20260406-trelte-v7.61",
+			"download": "https://github.com/couths/ota_provider/releases/download/crDroidAndroid-11.0-20260406-trelte-v7.61/crDroidAndroid-11.0-20260406-trelte-v7.61.zip",
+			"timestamp": 1775483395,
+			"md5": "0424710759ee6b1981fb34657e87ae68",
+			"size": 656610669,
+			"version": "7.61",
 			"buildtype": "Monthly",
 			"forum": "https://xdaforums.com/t/rom-unofficial-11-crdroid-7-60-for-samsung-galaxy-note-4-trelte.4766139/",
 			"gapps": "",
@@ -18,7 +18,7 @@
 			"bootloader": "",
 			"recovery": "",
 			"paypal": "",
-			"telegram": ""
+			"telegram": "https://t.me/triplr_dev_users"
 		}
 	]
 }
