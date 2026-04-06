@@ -45,8 +45,11 @@ Device maintainer: Couths
 - Updated prebuilt Droid-ify to 0.7.1
 - Included Android System SafetyCore/KeyVerifier blocker apps.(Google apps that use system resources)
 
-===== 03/19/2026 =====
+===== 04/01/2026 =====
 - Synced with crDroid11 source
 - March 2026 SPL
 - Updated prebuilt AuroraStore to 4.8.1
 - Set statusBarBurnInProtection to true
+
+===== 04/06/2026 =====
+- Updated all outdated firmware blobs to N900XXSEBHR3 (Fixes WiFi dropping issue)
