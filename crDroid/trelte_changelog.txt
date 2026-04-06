@@ -23,9 +23,17 @@ Device maintainer: Couths
 - Switch to new AIDL Power HAL
 - Increase Swappiness to 100
 - Make mcDriverDaemon start with three trustlet (third one wasn't included correctly)
+- Enabled Blur support
 
 ===== 02/09/2026 =====
 - OTA Support
 
 ===== 02/10/2026 =====
 - Fixed USB issues
+
+===== 04/06/2026 =====
+- Synced with crDroid11 source
+- March 2026 SPL
+- Set statusBarBurnInProtection to true
+- Included useful system apps like: AuroraStore, Droid-ify, Fossify File Manager
+- Included Android System SafetyCore/KeyVerifier blocker apps.(Google apps that use system resources)
