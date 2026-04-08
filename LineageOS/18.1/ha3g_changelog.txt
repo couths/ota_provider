@@ -1,0 +1,37 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Galaxy Note 3 (ha3g)
+Device maintainer: Couths
+
+===== 10/07/2025 - 10/30/2025 =====
+- Initial release
+- Fix NFC Crashing in the background
+- Override mediaserver target sdk to 22
+- Synced libhwcmodule with Exynos 5422
+- Use HW Renderscript Module (ARM)
+
+===== 03/09/2026 =====
+- Synced with LineageOS source
+- Enforcing SELinux
+- LiveDisplay support
+- Signed build
+- BFQ IO Scheduler support
+- ITouchscreenGesture support for S-Pen
+- Set Doze brightness to 1 (0-255)
+- Set default overlays to stock
+- Add vibe (vibration) pattern overlays
+- Increase ZRAM size to 75% of RAM
+- Switch to HIDL Power HAL (Brings back performance profiles)
+- Included useful system apps like: AuroraStore, Droid-ify, Fossify File Manager
+- Included Android System SafetyCore/KeyVerifier blocker apps.(Google apps that use system resources)
+- Add back Exynos 5420 power HAL
+- Increased swappiness to 100
+
+===== 04/08/2026 =====
+- Synced with LineageOS source
+- OTA support
+- Fixed remaining SELinux denials
+- Updated prebuilt Droid-ify to 0.7.1
+- Updated prebuilt AuroraStore to 4.8.1
+- Updated all outdated firmware blobs to N900XXSEBHR3 (Fixes WiFi dropping issue)
+- Moved Touchkey permissions to post-fs-data
