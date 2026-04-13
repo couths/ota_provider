@@ -53,3 +53,8 @@ Device maintainer: Couths
 
 ===== 04/06/2026 =====
 - Updated all outdated firmware blobs to N900XXSEBHR3 (Fixes WiFi dropping issue)
+
+===== 04/13/2026 =====
+- Fixed remaining SELinux denials
+- Fixed OTA not working because of ota_block_device denial
+- Moved Touchkey permissions to post-fs-data
