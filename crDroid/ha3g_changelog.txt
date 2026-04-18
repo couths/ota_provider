@@ -58,3 +58,11 @@ Device maintainer: Couths
 - Fixed remaining SELinux denials
 - Fixed OTA not working because of ota_block_device denial
 - Moved Touchkey permissions to post-fs-data
+
+===== 04/17/2026 =====
+- Night Display support
+- Fixed charging current(shows correct wattage at the lockscreen)
+- Set charging light to a more orange color
+- Set keyboard vibration to 20
+- Set long press on home button to recents
+- [KERNEL] estimate available memory more conservatively
