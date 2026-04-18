@@ -35,3 +35,12 @@ Device maintainer: Couths
 - Updated prebuilt AuroraStore to 4.8.1
 - Updated all outdated firmware blobs to N900XXSEBHR3 (Fixes WiFi dropping issue)
 - Moved Touchkey permissions to post-fs-data
+
+===== 04/18/2026 =====
+- Synced with LineageOS source
+- Night Display support
+- Fixed charging current(shows correct wattage at the lockscreen)
+- Set charging light to a more orange color
+- Set keyboard vibration to 20
+- Set long press on home button to recents
+- [KERNEL] estimate available memory more conservatively
