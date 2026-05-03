@@ -66,3 +66,10 @@ Device maintainer: Couths
 - Set keyboard vibration to 20
 - Set long press on home button to recents
 - [KERNEL] estimate available memory more conservatively
+
+===== 05/02/2026 =====
+- [KERNEL] Upstreamed ZRAM,lz4,RWSEM,ASoC,ALSA and a lot more
+- [KERNEL] Set minimum CPU frequency to 100MHz (LITTLE cores work fine now, battery life should be improved)
+- [KERNEL] Added Exynos 5420 voltage control
+- Removed non-existing battery.dat from init.samsung.rc
+- Enabled 200,150,100MHz core speeds
