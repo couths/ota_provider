@@ -1,12 +1,12 @@
 {
 	"response": [
 		{
-			"datetime": "1776531632",
-			"filename": "lineage-18.1-20260418-UNOFFICIAL-ha3g.zip",
-			"id": "566d020962f41da07d326c76695a04040512378650f318ac8c0519ac4a1ebe56",
+			"datetime": "1778312505",
+			"filename": "lineage-18.1-20260509-UNOFFICIAL-ha3g.zip",
+			"id": "7b2a1ad240afb4b7b3a2f7ffaf6317c680d93dcbd1ccf50c1ec44a27c1a2a9eb",
 			"romtype": "UNOFFICIAL",
-			"size": 544272374,
-			"url": "https://github.com/couths/ota_provider/releases/download/lineage-18.1-20260418-UNOFFICIAL-ha3g/lineage-18.1-20260418-UNOFFICIAL-ha3g.zip",
+			"size": 544772459,
+			"url": "https://github.com/couths/ota_provider/releases/download/lineage-18.1-20260509-UNOFFICIAL-ha3g/lineage-18.1-20260509-UNOFFICIAL-ha3g.zip",
 			"version": "18.1"
 		}
 	]
