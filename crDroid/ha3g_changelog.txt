@@ -73,3 +73,12 @@ Device maintainer: Couths
 - [KERNEL] Added Exynos 5420 voltage control
 - Removed non-existing battery.dat from init.samsung.rc
 - Enabled 200,150,100MHz core speeds
+
+===== 06/22/2026 =====
+- Synced with crDroid11 source
+- June 2026 SPL
+- Updated prebuilt AuroraStore to 4.8.3
+
+===== 06/23/2026 =====
+- Signed build (Previous build wasn't signed, my mistake)
+- Fixed power profiles not being present
