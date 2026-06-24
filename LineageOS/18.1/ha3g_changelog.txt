@@ -52,3 +52,7 @@ Device maintainer: Couths
 - [KERNEL] Enabled Tracehook support(Should fix ReZygisk)
 - Removed non-existing battery.dat from init.samsung.rc
 - Enabled 200,150,100MHz core speeds
+
+===== 06/24/2026 =====
+- Synced with LineageOS source
+- Updated prebuilt AuroraStore to 4.8.3
