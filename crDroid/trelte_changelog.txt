@@ -37,3 +37,21 @@ Device maintainer: Couths
 - Set statusBarBurnInProtection to true
 - Included useful system apps like: AuroraStore, Droid-ify, Fossify File Manager
 - Included Android System SafetyCore/KeyVerifier blocker apps.(Google apps that use system resources)
+
+===== 06/24/2026 =====
+- Synced with crDroid11 source
+- June 2026 SPL
+- Upstreamed kernel to v3.10.108
+- R22P0 GPU driver yet again
+- Re-enabled Vulkan support
+- Updated prebuilt AuroraStore to 4.8.3
+- Added AOD Support (Does not crash anymore)
+- Reverted performance mods
+- Switched to prebuilt Mobicore binaries
+- Switched to stock HMP threshold values
+- Switched to Stock HWC Parameters
+- Fixed reboot loop on Samsung logo
+- Re-added and upstreamed SDCARDFS
+- Various upstream commits for kernel
+- Reverted Fake Cmdline (SafetyNet bypass)
+- Dropped NOTRIM flag
