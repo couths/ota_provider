@@ -1,0 +1,45 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Galaxy Note 4 (trelte)
+Device maintainer: Couths
+
+===== 12/22/2025 =====
+- Downgrade to R15P0 GPU driver (from R22P0)
+- Use Stock HMP threshold values (required loads to use big or little cores, results with slightly better battery life)
+- Use 160MHz as minimum MHz for GPU
+- Sync libhwcmodule with Exynos 5422 (Results with lower GPU usage)
+- Use stock interactive governor parameters
+- Use 1.5GB ZRAM (Instead of 2GB)
+- Enable m2m1shot (hw jpeg scaler) for libexynosscaler
+- Fix Camera crashing due to incorrect m2m1shot permissions
+- Revert Interactive governor upstreams
+- Remove custom CPUsets that are not included in the stock software.
+- Revert custom powersuspend commits in the kernel (you can check on commit history)
+- Build tsp and cypress firmwares from source (ihex)
+
+===== 02/01/2026 =====
+- Binderize Exynos Memory Tracker HAL
+- Add back cpusets from A800J
+- Start mcDriverDaemon with three trustlet binary (in previous version, third one doesn't included correctly)
+- Set vm.swappiness to 100 at boot (Fixes app crashing and glitching on games)
+- Switch to AIDL Power HAL (Removes Performance Profiles)
+- Assign drmrpc to /dev/video26
+
+===== 07/04/2026 =====
+- Synced with LineageOS source
+- OTA Support
+- Signed build
+- Included useful system apps like: AuroraStore, Droid-ify, Fossify File Manager
+- Included Android System SafetyCore/KeyVerifier blocker apps.(Google apps that use system resources if GApps are installed)
+- R22P0 GPU driver yet again
+- Re-enabled Vulkan support
+- Added AOD Support (Does not crash anymore)
+- Reverted performance mods
+- Switched to prebuilt Mobicore binaries
+- Switched to stock HMP threshold values
+- Switched to Stock HWC Parameters
+- Fixed reboot loop on Samsung logo
+- Re-added and upstreamed SDCARDFS
+- Various upstream commits for kernel
+- Reverted Fake Cmdline (SafetyNet bypass)
+- Dropped NOTRIM flag

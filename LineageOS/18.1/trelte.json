@@ -1,0 +1,13 @@
+{
+	"response": [
+		{
+			"datetime": "1783105786",
+			"filename": "lineage-18.1-20260703-UNOFFICIAL-trelte.zip",
+			"id": "480f564588ad1ea088a1693896d44c7767e2b44b8e5e4ed9a80cd19c87c1ba99",
+			"romtype": "UNOFFICIAL",
+			"size": 554998180,
+			"url": "https://github.com/couths/ota_provider/releases/download/lineage-18.1-20260703-UNOFFICIAL-trelte/lineage-18.1-20260703-UNOFFICIAL-trelte.zip",
+			"version": "18.1"
+		}
+	]
+}
