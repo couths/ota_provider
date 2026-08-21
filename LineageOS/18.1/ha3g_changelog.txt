@@ -56,3 +56,10 @@ Device maintainer: Couths
 ===== 06/24/2026 =====
 - Synced with LineageOS source
 - Updated prebuilt AuroraStore to 4.8.3
+
+===== 08/21/2026 =====
+- [KERNEL] Patched CVE-2026-43499 vulnerability
+- [KERNEL] Reverted back to HIDL power hal (Brings performance profiles back and fixes S-Pen)
+- Fixed S-Pen issues (Random reboots and palm rejection)
+- Updated prebuilt Droid-ify to 0.7.5
+- Removed wifi display
