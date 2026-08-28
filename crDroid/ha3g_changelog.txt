@@ -82,3 +82,9 @@ Device maintainer: Couths
 ===== 06/23/2026 =====
 - Signed build (Previous build wasn't signed, my mistake)
 - Fixed power profiles not being present
+
+===== 08/27/2026 =====
+- [KERNEL] Patched CVE-2026-43499 vulnerability
+- Fixed S-Pen palm rejection
+- Updated prebuilt Droid-ify to 0.7.5
+- Removed wifi display overlay
