@@ -59,7 +59,13 @@ Device maintainer: Couths
 
 ===== 08/21/2026 =====
 - [KERNEL] Patched CVE-2026-43499 vulnerability
-- [KERNEL] Reverted back to HIDL power hal (Brings performance profiles back and fixes S-Pen)
+- Reverted back to HIDL power hal (Brings performance profiles back and fixes S-Pen)
 - Fixed S-Pen issues (Random reboots and palm rejection)
 - Updated prebuilt Droid-ify to 0.7.5
-- Removed wifi display
+
+===== 09/30/2026 =====
+- Synced with LineageOS source
+- Updated prebuilt Droid-ify to 0.7.8
+- Dropped CONFIG_MODE_AUTO_CHANGE in kernel
+- Dropped universal5420 init.power.rc, switched to common HIDL Power HAL
+- Removed performance profiles for the last time. (wasn't very useful anyways)
